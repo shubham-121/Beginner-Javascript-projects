@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "ToDo list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-121/Beginner-Javascript-projects.git#main"
+  },
+  "author": "shubham bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham-121/Beginner-Javascript-projects/issues"
+  },
+  "homepage": "https://github.com/shubham-121/Beginner-Javascript-projects/tree/main#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
