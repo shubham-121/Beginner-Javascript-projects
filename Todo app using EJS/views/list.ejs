@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:aquamarine;">
+   
+
+    <h1>Its a <%= kindOfDay %>!  </h1>
+         
+    <!-- <% const i=0%>  
+    <% if(i){  %>
+     <h1 style="color: purple;">Hello</h1>
+     <% } else{  %>
+     <h1 style="color: green;">Hello buffalo</h1>
+     <% } %> -->
+
+     
+     <h1>Its a <%= kindOfDay %>!  </h1>
+
+     <ul>
+     
+        <% for(var j=0;  j<newListItems.length;  j++){ %>
+            <li style="color:pink"> <%=  newListItems[j] %></li> 
+        
+     <% } %>
+
+     <form action="/" method="post">
+
+        <input type="text" name="newItem" placeholder="Enter a new activity" >
+        <button type="submit">Click here to add new activity</button>
+     </form>
+     
+</body>
+</html>
