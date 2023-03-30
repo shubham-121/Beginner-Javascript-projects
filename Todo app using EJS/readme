@@ -1,1 +1,4 @@
-
+for using the ejs files:
+create a views folder-> filename.ejs
+for selecting a folder inside ejs:
+views->folder_name->filename.ejs (to use this file do: folder_name/filename)
